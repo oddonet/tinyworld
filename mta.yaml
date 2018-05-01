@@ -18,6 +18,14 @@ modules:
       properties:
          url: ${default-url}
 
+
+ 
+
+
+ - name: tinyui
+   type: html5
+   path: tinyui
+
 resources:
  - name: hdi_tinydb
    parameters:
