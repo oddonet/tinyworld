@@ -17,6 +17,8 @@ try {
 	console.log("[WARN]", err.message);
 }
 
+//options = xsjs.extend(options, xsenv.getServices({ hana: {tag: "hana"} }));
+
 // configure UAA
 try {
 	options = Object.assign(options, xsenv.getServices({ uaa: {tag: "xsuaa"} }));
